@@ -19,7 +19,7 @@ const CountryFlag = () => {
     <div>
       {countryCode && hasFlag(countryCode) && (
         <div>
-          <Image
+          <Image className=' border'
           width={37}
           height={25}
             alt={countryCode}

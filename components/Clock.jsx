@@ -52,7 +52,7 @@ const Clock = () => {
     );
   }, []);
   return (
-    <div className="text-right">
+    <div className="text-right text-xs">
       {locationData ? (
         <div className=''>
           <p className=''>

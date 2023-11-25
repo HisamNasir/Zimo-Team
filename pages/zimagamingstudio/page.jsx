@@ -30,16 +30,15 @@ const ZimaGamingStudio = () => {
   }, []);
 
   return (
-    <div className="h-screen w-full relative overflow-hidden">
+    <div className="h-screen w-full relative overflow-hidden bg-black">
       <video
         ref={videoRef}
-        className="absolute h-full w-full object-cover"
+        className="absolute h-full w-full "
         autoPlay
         loop
-        // muted
         playsInline
       >
-        <source src="/Assets/video.mp4" type="video/mp4" />
+        <source src="/Assets/game.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="absolute bottom-0 w-full flex justify-center">

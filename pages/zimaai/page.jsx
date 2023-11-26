@@ -30,7 +30,7 @@ const ZimaAI = () => {
   }, [bgControls, bgInView]);
 
   return (
-    <div className="h-screen w-full relative ">
+    <div className="h-screen relative ">
       <motion.div
         ref={bgRef}
         initial={{ opacity: 0 }}

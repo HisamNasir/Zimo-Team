@@ -48,7 +48,6 @@ export default function Application() {
     }
   };
   useEffect(() => {
-    if (typeof window !== 'undefined') {
     const fetchCountries = async () => {
       const response = await fetch("https://restcountries.com/v3.1/all");
       const data = await response.json();
@@ -74,8 +73,8 @@ export default function Application() {
     const storedCountryCode = localStorage.getItem("CountryCode") || "";
     setSelectedCountry(storedCountry);
     setSelectedOption({ label: storedCountry, code: storedCountryCode });
-  }
-}, []);
+  }, []);
+
   useEffect(() => {
     setCountryOptions(countries);
   }, [countries]);

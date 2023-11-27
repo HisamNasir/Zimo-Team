@@ -66,56 +66,56 @@ const Contact = () => {
                 <div className="md:grid md:grid-cols-2 h-full ">
                 <div className="flex md:justify-end items-center h-full">
                 <div>
-                  <dl className="m-2">REAL ESATE</dl>
-                  <dl className="m-2">realestate@zimogroup.org</dl>
-                  <dl className="m-2">CARS</dl>
-                  <dl className="m-2">cars@zimogroup.org</dl>
-                  <dl className="m-2">YACHTS</dl>
-                  <dl className="m-2">yachts@zimogroup.org</dl>
-                  <dl className="m-2">WATCHES</dl>
-                  <dl className="m-2">watches@zimogroup.org</dl>
-                  <dl className="m-2">JET</dl>
-                  <dl className="m-2">jet@zimogroup.org</dl>
-                  <dl className="m-2">PRIVATE ISLANDS</dl>
-                  <dl className="m-2">perivateislands@zimogroup.org</dl>
-                  <dl className="m-2">DIAMONDS</dl>
-                  <dl className="m-2">diamonds@zimogroup.org</dl>
-                  <dl className="m-2">TRAVEL THE WORLD</dl>
-                  <dl className="m-2">ttw@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">REAL ESATE</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">realestate@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">CARS</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">cars@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">YACHTS</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">yachts@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">WATCHES</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">watches@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">JET</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">jet@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">PRIVATE ISLANDS</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">perivateislands@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">DIAMONDS</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">diamonds@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">TRAVEL THE WORLD</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">ttw@zimogroup.org</dl>
                 </div>
                 </div>
                 <div className="flex md:justify-end">
                   <div className="grid grid-row-2">
                   <div className="my-5">
                   
-                  <dl className="m-2">ADVERTISING</dl>
-                  <dl className="m-2">advertising@zimogroup.org</dl>
-                  <dl className="m-2">SPONSORSHIP</dl>
-                  <dl className="m-2">sponsorship@zimogroup.org</dl>
-                  <dl className="m-2">PARTNERS</dl>
-                  <dl className="m-2">partners@zimogroup.org</dl>
-                  <dl className="m-2">LEGAL</dl>
-                  <dl className="m-2">legal@zimogroup.org</dl>
-                  <dl className="m-2">CORPORATE</dl>
-                  <dl className="m-2">corporate@zimogroup.org</dl>
-                  <dl className="m-2">MARKEETING</dl>
-                  <dl className="m-2">markeeting@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">ADVERTISING</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">advertising@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">SPONSORSHIP</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">sponsorship@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">PARTNERS</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">partners@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">LEGAL</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">legal@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">CORPORATE</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">corporate@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">MARKEETING</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">markeeting@zimogroup.org</dl>
                   </div>
                   <div className="my-5">
                   <dt>UNITED KINGDOM</dt>
-                  <dl className="m-2">press-uk@zimogroup.org</dl>
-                  <dl className="m-2">EUROPE</dl>
-                  <dl className="m-2">press-eu@zimogroup.org</dl>
-                  <dl className="m-2">NORTH AMERICA</dl>
-                  <dl className="m-2">press-na@zimogroup.org</dl>
-                  <dl className="m-2">MIDDLE EAST</dl>
-                  <dl className="m-2">press-me@zimogroup.org</dl>
-                  <dl className="m-2">ASIA/AUSTRALIA</dl>
-                  <dl className="m-2">press-apac@zimogroup.org</dl>
-                  <dl className="m-2">AFRICA</dl>
-                  <dl className="m-2">press-af@zimogroup.org</dl>
-                  <dl className="m-2">CHINA/HONG KONG</dl>
-                  <dl className="m-2">press-ch@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">press-uk@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">EUROPE</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">press-eu@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">NORTH AMERICA</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">press-na@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">MIDDLE EAST</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">press-me@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">ASIA/AUSTRALIA</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">press-apac@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">AFRICA</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">press-af@zimogroup.org</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">CHINA/HONG KONG</dl>
+                  <dl className="m-2 hover:text-[#be9f56]">press-ch@zimogroup.org</dl>
                   </div>
                 </div>
                 </div>

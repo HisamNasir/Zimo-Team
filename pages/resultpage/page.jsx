@@ -22,9 +22,10 @@ const ResultPage = () => {
   const [selectedOption, setSelectedOption] = useState(null);
   const [showCareerOptions, setShowCareerOptions] = useState(false);
   const [selectedCareerOption, setSelectedCareerOption] = useState("");
-  const storedCountry = localStorage.getItem("CountryName") || "Unknown Country";
-  const [displayedCountry, setDisplayedCountry] = useState(storedCountry);
-  const storedCareerOption = localStorage.getItem("CareerOption") || "Unknown Career Option";
+  const storedCountry = typeof window !== 'undefined' ? localStorage.getItem("CountryName") || "Unknown Country" : "Unknown Country";
+const [displayedCountry, setDisplayedCountry] = useState(storedCountry);
+const storedCareerOption = typeof window !== 'undefined' ? localStorage.getItem("CareerOption") || "Unknown Career Option" : "Unknown Career Option";
+
   const [dateOfBirth, setDateOfBirth] = useState("");
   const [email, setEmail] = useState("");
   const [confirmEmail, setConfirmEmail] = useState("");

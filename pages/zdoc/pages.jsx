@@ -45,7 +45,7 @@ const Zdoc = () => {
       <div className="absolute bottom-0 w-full flex justify-center">
         <div className="space-y-20">
           <p className="max-md:text-xs text-center text-[#939393]">
-            document-signing software technology that let's you sign documents
+            ocument-signing software technology that lets you sign documents
             online.
           </p>
           <div>

@@ -49,10 +49,24 @@ const ResultPage = () => {
     localStorage.setItem("CareerOption", selectedOption ? selectedOption.label : "");
   };
 
-  const handleStart = () => {
 
-      router.push("/resultpage/page2");
+  const handleStart = (e) => {
+    e.preventDefault();
 
+    // Check if all inputs are filled
+    if (
+      email.trim() === "" ||
+      confirmEmail.trim() === "" ||
+      firstName.trim() === "" ||
+      lastName.trim() === "" ||
+      dateOfBirth.trim() === "" ||
+      phoneNumber.trim() === ""
+    ) {
+      alert("Please fill in all required fields");
+      return;
+    }
+
+    router.push("/resultpage/page2");
   };
 
   const handleDateOfBirthChange = (event) => {
@@ -186,7 +200,7 @@ const ResultPage = () => {
         </div>
       </div>
 
-      <div className="h-full flex justify-center items-center">
+      <form onSubmit={handleStart} className="h-full flex justify-center items-center">
         <div className="relative m-4 w-full max-w-2xl rounded-xl">
           {/* Email Address */}
           <div className="px-12 pb-2 md:flex md:justify-center">
@@ -285,12 +299,12 @@ const ResultPage = () => {
 
           {/* Continue Button */}
           <div className="max-md:flex max-md:w-full max-md:justify-center absolute -bottom-10  md:-right-10 md:bottom-8">
-            <button className="rounded-lg bg-black text-white h-24 w-24 text-xs uppercase" onClick={handleStart}>
+            <button className="rounded-lg bg-black text-white h-24 w-24 text-xs uppercase" type="submit">
               continue
             </button>
           </div>
         </div>
-      </div>
+      </form>
 
       {/* Bottom Images */}
       <div id="bottom">

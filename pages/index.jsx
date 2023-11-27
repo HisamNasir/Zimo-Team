@@ -35,13 +35,13 @@ export default function Home() {
             </Link>
           </div>
           <div className="absolute h-full w-full flex justify-center  items-end">
-            <div className="grid grid-cols-3 sm:grid-flow-col items-center gap-4 p-4 ">
-            <Image className="max-h-[40px] max-md:max-w-[50px] lg:max-h-[60px] md:w-full flex item-center" alt="" width={400} height={400} src={Career}/>
-            <Image className="max-h-[40px] max-md:max-w-[50px] lg:max-h-[60px] md:w-full  flex item-center" alt="" width={400} height={400} src={Intern}/>
-            <Image className="max-h-[40px] max-md:max-w-[50px] lg:max-h-[60px] md:w-full flex item-center" alt="" width={400} height={400} src={Zdoc}/>
-            <Image className="max-h-[40px] max-md:max-w-[50px] lg:max-h-[60px] md:w-full flex item-center" alt="" width={400} height={400} src={AI}/>
-            <Image className="max-h-[40px] max-md:max-w-[80px] lg:max-h-[60px] md:w-full flex item-center" alt="" width={400} height={400} src={Zhub}/>
-            <Image className="max-h-[40px] max-md:max-w-[50px] lg:max-h-[60px] md:w-full flex item-center" alt="" width={400} height={400} src={Zmeet}/>
+            <div className="grid grid-cols-3 sm:grid-flow-col justify-center items-center gap-4 p-4 ">
+            <Image className="max-h-[20px] md:max-h-[30px] lg:max-h-[40px] xl:max-h-[50px] w-auto " alt="" width={400} height={400} src={Career}/>
+            <Image className="max-h-[20px] md:max-h-[30px] lg:max-h-[40px] xl:max-h-[50px] w-auto " alt="" width={400} height={400} src={Intern}/>
+            <Image className="max-h-[20px] md:max-h-[30px] lg:max-h-[40px] xl:max-h-[50px] w-auto " alt="" width={400} height={400} src={Zdoc}/>
+            <Image className="max-h-[20px] md:max-h-[30px] lg:max-h-[40px] xl:max-h-[50px] w-auto " alt="" width={400} height={400} src={AI}/>
+            <Image className="max-h-[20px] md:max-h-[30px] lg:max-h-[40px] xl:max-h-[50px] w-auto " alt="" width={400} height={400} src={Zhub}/>
+            <Image className="max-h-[20px] md:max-h-[30px] lg:max-h-[40px] xl:max-h-[50px] w-auto " alt="" width={400} height={400} src={Zmeet}/>
             </div>
           </div>
         </div>

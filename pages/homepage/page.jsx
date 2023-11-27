@@ -12,6 +12,7 @@ import ZimaInternship from '../zimainternship/pages';
 import VerySadMusicPage from '../verysadmusicpage/page';
 import JoinOurTeam from '../joinourteam/page';
 import Application from '../application/page';
+import Contact from '../contact/page';
 
 
 const HomePage = () => {
@@ -32,6 +33,7 @@ const HomePage = () => {
         <VerySadMusicPage/>
         <JoinOurTeam/>
         <Application/>
+        <Contact/>
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { FaEnvelope, FaGlobe, FaVoicemail } from 'react-icons/fa'
 import Image from 'next/image';
 import ZimaTeamImg from '@/public/Assets/zimateamlogo.svg'
 import ZimaGroupImg from '@/public/Assets/zimogroup.svg'
-import Avav from '@/public/Assets/zimogroup.svg'
+import Avav from '@/public/Assets/avav.png'
 const Contact = () => {
   return (
     <div>
@@ -31,8 +31,8 @@ const Contact = () => {
                 <div className="my-5">
                   <div className="flex flex-col items-center gap-4 justify-center">
                     <Image alt='' src={ZimaTeamImg} className='w-[250px] md:w-[300px] xl:w-[400px]' />
-                    <Image alt='' src={ZimaGroupImg} className='w-[200px] md:w-[250px] xl:w-[350px]' />
-                    <Image alt='' src={Avav} className='w-[200px] md:w-[250px] xl:w-[350px]' />
+                    <Image alt='' src={ZimaGroupImg} className='w-[200px] mb-8 md:w-[250px] xl:w-[350px]' />
+                    <Image alt='' src={Avav} className='w-[60px]' />
                   </div>
                   <div>
                     <p className="flex justify-center text-center m-2 text-xs">ZIMO GROUP LIMITED</p>

@@ -22,27 +22,30 @@ const ResultPagetwo = () => {
   const [nationalId, setNationalId] = useState("");
 
   useEffect(() => {
-    // Retrieve data from local storage
-    const storedEmail = localStorage.getItem("Email") || "";
-    const storedConfirmEmail = localStorage.getItem("ConfirmEmail") || "";
-    const storedFirstName = localStorage.getItem("FirstName") || "";
-    const storedLastName = localStorage.getItem("LastName") || "";
-    const storedDateOfBirth = localStorage.getItem("DateOfBirth") || "";
-    const storedCountryName = localStorage.getItem("CountryName") || "";
-    const storedAreaCode = localStorage.getItem("AreaCode") || "";
-    const storedPhoneNumber = localStorage.getItem("PhoneNumber") || "";
+    // Check if localStorage is available
+    if (typeof window !== 'undefined') {
+      // Retrieve data from local storage
+      const storedEmail = localStorage.getItem("Email") || "";
+      const storedConfirmEmail = localStorage.getItem("ConfirmEmail") || "";
+      const storedFirstName = localStorage.getItem("FirstName") || "";
+      const storedLastName = localStorage.getItem("LastName") || "";
+      const storedDateOfBirth = localStorage.getItem("DateOfBirth") || "";
+      const storedCountryName = localStorage.getItem("CountryName") || "";
+      const storedAreaCode = localStorage.getItem("AreaCode") || "";
+      const storedPhoneNumber = localStorage.getItem("PhoneNumber") || "";
 
-    // Set the retrieved data in state
-    setStoredData({
-      email: storedEmail,
-      confirmEmail: storedConfirmEmail,
-      firstName: storedFirstName,
-      lastName: storedLastName,
-      dateOfBirth: storedDateOfBirth,
-      countryName: storedCountryName,
-      areaCode: storedAreaCode,
-      phoneNumber: storedPhoneNumber,
-    });
+      // Set the retrieved data in state
+      setStoredData({
+        email: storedEmail,
+        confirmEmail: storedConfirmEmail,
+        firstName: storedFirstName,
+        lastName: storedLastName,
+        dateOfBirth: storedDateOfBirth,
+        countryName: storedCountryName,
+        areaCode: storedAreaCode,
+        phoneNumber: storedPhoneNumber,
+      });
+    }
   }, []);
 
   const handleBackToCountry = () => {
